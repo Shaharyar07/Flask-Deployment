@@ -33,7 +33,7 @@ def predict():
     if(prediction[0][0] < 0.5):
         return "Cancer"
     elif(prediction[0][0] > 0.5):
-        return "Healthy"
+        return "Normal"
     else:
         return "Unknown"
 
